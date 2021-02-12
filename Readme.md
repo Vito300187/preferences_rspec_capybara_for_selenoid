@@ -1,6 +1,6 @@
 File with minimal preferences, for run Capybara, Rspec and Selenoid
 
-###Install Selenoid
+### Install Selenoid
 - `wget -O cm https://github.com/aerokube/cm/releases/download/` And current version
 - `chmod +x cm`
 - `./cm selenoid start --vnc`
