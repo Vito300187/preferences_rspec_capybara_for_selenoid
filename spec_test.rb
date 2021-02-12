@@ -8,7 +8,6 @@ link3 = 'https://www.google.com'
 
 feature 'Main test' do
   scenario 'Test for check selenoid' do
-    visit 'https://www.google.com'
     [link1, link2, link3].each { |l| visit l; sleep 5 }
   end
 end
