@@ -13,3 +13,4 @@ If you scope browser, haven't new version, need update selenoid:
 2) Run `rspec spec_test.rb`
 2) After run visit in browser `localhost:8080`
 3) Session created and test runner, can view how the test is performed.
+4) If you want using selenoid video record, you need set preferences `enableVideo = true` in `spec_helper.rb`, after finish test, move to `http://localhost:4444/video/` -> Listing All Video Files  
